@@ -1,0 +1,37 @@
+{
+  "name": "candyshop",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/u12-05/candyshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/u12-05/candyshop/issues"
+  },
+  "homepage": "https://gitlab.com/u12-05/candyshop#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.20.1",
+    "connect-multiparty": "^2.2.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jwt-simple": "^0.5.6",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.5",
+    "mongoose-pagination": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
